@@ -192,7 +192,7 @@ if (gotTheLock) {
           } else if (argv.includes('--quit')) {
             // Needs to be delayed to not interfere with mainWindow.restore();
             setTimeout(() => {
-              debug('Quitting Ferdium via Task');
+              debug('Quitting 畅际多开 via Task');
               app.quit();
             }, 1);
           }
@@ -645,15 +645,15 @@ app.on('ready', () => {
         arguments: `${extraArgs}--reset-window`,
         iconPath,
         iconIndex: 0,
-        title: 'Move Ferdium to Current Display',
-        description: 'Restore the position and size of Ferdium',
+        title: 'Move 畅际多开 to Current Display',
+        description: 'Restore the position and size of 畅际多开',
       },
       {
         program: process.execPath,
         arguments: `${extraArgs}--quit`,
         iconPath,
         iconIndex: 0,
-        title: 'Quit Ferdium',
+        title: 'Quit 畅际多开',
         description: '',
       },
     ]);
@@ -933,7 +933,7 @@ app.on('before-quit', event => {
     selection = dialog.showMessageBoxSync(mainWindow!, {
       type: 'question',
       message: 'Quit',
-      detail: 'Do you really want to quit Ferdium?',
+      detail: 'Do you really want to quit 畅际多开?',
       buttons: ['Yes', 'No'],
     });
   }

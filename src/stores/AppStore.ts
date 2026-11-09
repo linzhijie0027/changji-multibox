@@ -59,7 +59,7 @@ const executablePath = isMac
     ? process.env.PORTABLE_EXECUTABLE_FILE
     : process.execPath;
 const autoLauncher = new AutoLaunch({
-  name: 'Ferdium',
+  name: '畅际多开',
   path: executablePath,
 });
 

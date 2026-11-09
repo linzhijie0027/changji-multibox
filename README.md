@@ -1,3 +1,23 @@
+# 畅际多开
+
+Windows 多网站、多账号工作台，基于 Ferdium 7.2.3。支持独立网站会话、自定义网址、工作区与分屏。
+
+源码分支：`changji`。Windows 构建见 Actions 中的“畅际多开 Windows 构建”；成功后可下载安装版与免安装版。
+
+首次使用可选择“无需账号使用”，然后添加服务或自定义网站。同一网站添加多个服务即可分别登录。具体网站兼容性需实际测试。
+
+默认中文、独立程序标识和配置目录；此版本的自动更新默认关闭，避免覆盖自定义版本。安装包未使用商业代码签名证书。
+
+## 开源来源
+
+感谢 Ferdium 和 Franz 原作者。保留 Apache-2.0 许可、原作者声明与原项目介绍；修改记录见 NOTICE.changji.md。
+
+## 构建
+
+按 `.nvmrc` 和 `package.json` 安装对应版本的 Node.js / pnpm，检出 recipes 子模块，安装依赖后先在 recipes 目录执行 `pnpm package`，回到根目录执行 `pnpm build --win --x64 --publish never`。
+
+---
+
 <p align="center">
     <a href="https://ferdium.org">
       <img src="./build-helpers/images/icon.png" alt="" width="250"/>

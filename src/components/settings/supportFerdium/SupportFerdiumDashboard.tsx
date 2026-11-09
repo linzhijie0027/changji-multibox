@@ -28,6 +28,8 @@ const SupportFerdiumDashboard = () => {
         </span>
       </div>
       <div className="settings__body">
+        <p>畅际多开由 linzhijie0027 基于 Ferdium 7.2.3 修改发布，采用 Apache-2.0 许可。感谢 Ferdium 与 Franz 原作者和贡献者。</p>
+        <p><a href="https://github.com/linzhijie0027/changji-multibox" target="_blank" rel="noreferrer noopener">畅际多开源码与版本下载</a></p>
         <div>
           <p className="settings__support-badges">
             <a
